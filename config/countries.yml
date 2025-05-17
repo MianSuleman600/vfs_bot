@@ -1,0 +1,24 @@
+"NO":
+  login_url: "https://visa.vfsglobal.com/pak/en/nor/login"
+  appointment_url: "https://visa.vfsglobal.com/pak/en/nor/application-detail"
+  selectors:
+    email: "email"
+    password: "password"
+    sign_in_button: "//button[contains(., 'Sign In')]"
+    start_new_booking: "button.mat-mdc-raised-button.btn-brand-orange"
+    visa_centre_dropdown: "mat-select-0"
+    visa_category_dropdown: "mat-select-4"
+    visa_subcategory_dropdown: "mat-select-2"
+    calendar_selector: ".appointment-calendar"
+    available_date_selector: ".available-date"
+  credentials:
+    email: "miansuleman600@gmail.com"
+    password: "Muhammad@1122"
+
+"PK":
+  login_url: "https://visa.vfsglobal.com/pak/en/pak/login"
+  appointment_url: "https://visa.vfsglobal.com/pak/en/pak/application-detail"
+  selectors:
+    # ...
+  credentials:
+    # ...

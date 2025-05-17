@@ -1,0 +1,92 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+.env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# dotenv environment variables file (if you use .env)
+.env
+
+# Logs
+*.log
+
+# YAML files with sensitive info (optional)
+configs/*.yml
+
+# Selenium or browser drivers (if you download any)
+chromedriver
+geckodriver
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python profiler
+.prof
+
+# Coverage reports
+.coverage
+
+# MyPy
+.mypy_cache/
+
+# Pyre type checker
+.pyre/
+
+# Pytype static analyzer
+.pytype/
+
+# C extensions
+*.so
