@@ -4,7 +4,7 @@
   selectors:
     email: "email"
     password: "password"
-    sign_in_button: "//button[contains(., 'Sign In')]"
+    sign_in_button: "//button[.//span[text()=' Sign In ']]"
     start_new_booking: "button.mat-mdc-raised-button.btn-brand-orange"
     visa_centre_dropdown: "mat-select-0"
     visa_category_dropdown: "mat-select-4"
